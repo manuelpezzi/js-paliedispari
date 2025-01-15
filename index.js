@@ -6,7 +6,9 @@ function pariODispari(somma) {
     return somma % === 0 ? "pari" : "dispari";
 }
 function gioco() {
-    let numeroGiocatore = prompt("scegli pari o dispari").toLocaleLowerCase();
+    let pariOdispari = prompt("scegli pari o dispari").toLocaleLowerCase();
     let numeroGiocatore = parseInt(prompt("inserisci un numnero da 1 a 5 :"));
 
 }
+let numeroDelCompuer = generaNumeroRandom();
+
