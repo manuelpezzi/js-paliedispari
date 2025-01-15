@@ -12,3 +12,6 @@ function gioco() {
 }
 let numeroDelCompuer = generaNumeroRandom();
 
+let somma = numeroGiocatore + numeroDelCompuer;
+
+let risultato = pariODispari(somma);
