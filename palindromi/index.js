@@ -12,3 +12,9 @@ function parolaPalindroma(parola) {
     let parolainvertita = parola.split("").reverse().join("");
     return parola === parolainvertita;
 }
+
+if (parolaPalindroma(parola)) {
+    console.log(`la parola ${parola} è palindroma`)
+} else {
+    console.log(`la parola ${parola} non è palindroma`)
+}
